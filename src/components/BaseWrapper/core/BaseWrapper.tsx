@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const BaseWrapper: React.FC = () => {
   return (<div>
     <nav>
-      <Link to="/" >Home</Link>
+      <Link to="/Home" defaultChecked >Home</Link>
       <Link to={`SingIn`} >SingIn</Link>
       <Link to="/SingUp" >SingUp</Link>
 
