@@ -4,6 +4,6 @@ import './assets/styles/common/index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <div></div>
+    <div> <strong>La Resistencia App</strong></div>
   </React.StrictMode>,
 )
