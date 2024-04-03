@@ -1,14 +1,16 @@
 import React from 'react';
-import { Link, Outlet } from 'react-router-dom';
-
+import { NavLink, Outlet } from 'react-router-dom';
+import '../style/BaseWrapper.css';
 // import { Container } from './styles';
 
 const BaseWrapper: React.FC = () => {
   return (<div>
-    <nav>
-      <Link to="/" defaultChecked >Home</Link>
-      <Link to={`/SingIn`} >SingIn</Link>
-      <Link to="/SingUp" >SingUp</Link>
+    <nav className='base-wrapper-nav'>
+      <NavLink className={({ isActive }) => (isActive ? "active" : "")} to="/" defaultChecked >Home</NavLink>
+      <div className='endblock'>
+        <NavLink className={({ isActive }) => (isActive ? "active" : "")} to="/SingIn" >SingIn</NavLink>
+        <NavLink className={({ isActive }) => (isActive ? "active" : "")} to="/SingUp" >SingUp</NavLink>
+      </div>
 
     </nav>
     <div>

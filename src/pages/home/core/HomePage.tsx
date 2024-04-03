@@ -1,10 +1,10 @@
 import React from 'react';
-
+import "../style/HomePageStyle.css"
 // import { Container } from './styles';
 
 const HomePage: React.FC = () => {
     return (
-        <div>
+        <div className='home-page-container'>
             <h3>Home</h3>
         </div>);
 }

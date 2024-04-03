@@ -1,0 +1,32 @@
+.base-wrapper-nav{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(147, 34, 233);
+    width: 100%;
+    justify-content: space-between;
+}
+.base-wrapper-nav  a{
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    border-bottom: 4px solid rgb(147, 34, 233) ;
+    color:rgb(255, 255, 255) ;
+    transition: all .12s ease-in-out;
+
+}
+.base-wrapper-nav  a:hover{
+    background-color: rgb(217, 23, 113);
+    color: white;
+    border-bottom: 4px solid rgb(255, 255, 255) ;
+}
+
+.base-wrapper-nav  a.active{
+    background-color: rgb(217, 23, 113);
+    color: white;
+    border-bottom: 4px solid rgb(255, 255, 255) ;
+}
+.endblock{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
