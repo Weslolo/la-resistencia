@@ -6,7 +6,6 @@ import BaseWrapper from '../../../components/BaseWrapper/core/BaseWrapper';
 
 const RootPage: React.FC = () => {
     return (<>
-        <BaseWrapper />
         <Outlet />
     </>);
 }
